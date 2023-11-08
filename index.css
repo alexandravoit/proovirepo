@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(182,164,164);
+}
+
+@font-face {
+  font-family: handwritten;
+  src: url(font.ttf);
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-family: 'handwritten';
+  color: rgb(50,18,44)
+}
+
+a {
+  color: rgb(123,9,91);
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+}
