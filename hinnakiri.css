@@ -1,0 +1,49 @@
+@font-face {
+    font-family: maria;
+    src: url(font.ttf);
+}
+
+
+
+#PEALKIRJAD {
+    color: rgb(66, 40, 66);
+    font-size: 80px;
+    font-family: maria;
+    text-align: right;
+   
+}
+
+#ALAMPEALKIRJAD {
+    color: rgb(123, 9, 91);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+   
+}
+
+
+
+#TEKST {
+    color: rgb(50, 18, 44);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+   
+}
+
+body {
+    background-color: rgb(182, 164, 164);
+   
+}
+
+
+table {
+    border: 2px solid;
+    border-collapse: collapse; /* Merge adjacent borders into a single border */
+    width: 100%; /* Set the table width to 100% of its container */
+}
+
+th {
+    border: 3px solid rgb(50, 18, 44); /* Add a 1px solid black border to table header cells and table data cells */
+    padding: 8px; /* Add some padding for spacing within cells */
+}
